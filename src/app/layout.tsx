@@ -58,7 +58,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-purple-600 dark:text-yellow-500")}
+        className={cn(inter.className, "dark:bg-fuchsia-800 dark:text-stone-200")}
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
